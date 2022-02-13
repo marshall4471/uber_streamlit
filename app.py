@@ -16,7 +16,7 @@ def main():
 
   pickup_longitude = st.slider("Input Your Pickup Longitude", -180, 180)
   pickup_latitude = st.slider("Input your Pickup Latitude",-90,90)
-  dropoff_longitude= st.slider("Input your Dropoff Longitude", -180 180)
+  dropoff_longitude= st.slider("Input your Dropoff Longitude", -180, 180)
   dropoff_latitude= st.slider("Input your Dropoff Ltitude",-90,90)
   passenger_count= st.slider("Input your passenger Count", 1,6)
 
