@@ -2,7 +2,6 @@ import streamlit as st
 import numpy as np
 import string
 import pickle
-import xgboost
 st.set_option('deprecation.showfileUploaderEncoding',False) 
 with open('model2.pkl', "rb") as fr:
        model = pickle.load(fr)
