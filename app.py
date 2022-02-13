@@ -4,7 +4,9 @@ import string
 import pickle
 import xgboost
 st.set_option('deprecation.showfileUploaderEncoding',False) 
-model = pickle.load(open('model(1).pkl','rb'))
+with open(file_name, "rb") as fr:
+       model = pickle.load(fr)
+    
 
 
 def main():
